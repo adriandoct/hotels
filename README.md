@@ -20,6 +20,28 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Environment
+
+Copy `.env.example` to `.env.local` and fill the required secrets before running locally.
+
+Required variables (see `.env.example`): `DATABASE_URL`, `STRIPE_SECRET_KEY`, `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`, `NEXT_PUBLIC_FIREBASE_*`.
+
+## Run locally
+
+Install dependencies and start the dev server:
+
+```bash
+npm install
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+npm start
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

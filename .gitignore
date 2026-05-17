@@ -37,4 +37,16 @@ next-env.d.ts
 
 node_modules
 
+# local environment examples
 .env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# IDE/editor
+.vscode/
+.idea/
+
+# coverage
+/coverage
